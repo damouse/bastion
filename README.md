@@ -5,7 +5,7 @@ An SSH tunnel proxy server that manages the connections in go instead of managin
 Setup: 
 
 ```
-go get -u .
+go get 
 ```
 
 

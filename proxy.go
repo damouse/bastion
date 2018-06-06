@@ -74,8 +74,8 @@ func handler(s ssh.Session) {
 
 	io.WriteString(s, "pwd")
 
-	cmd := exec.Command("ssh", "lhr-vpn")
-	// cmd := exec.Command("pwd")
+	// cmd := exec.Command("ssh", "lhr-vpn")
+	cmd := exec.Command("top")
 
 	ptyReq, winCh, isPty := s.Pty()
 
